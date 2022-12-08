@@ -2,9 +2,18 @@
   section {
     article {
       .card {
+        transition: all ease-in-out 200ms;
         &:hover {
           border-color: rgba(255, 117, 1, 1);
         }
+      }
+    }
+  }
+  .anchor {
+    .hash-link {
+      color: rgba(255, 117, 1, 1);
+      &::before {
+        color: rgba(255, 117, 1, 1) !important;
       }
     }
   }

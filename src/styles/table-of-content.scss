@@ -1,0 +1,16 @@
+.table-of-contents {
+  .table-of-contents__link {
+    color: white;
+    transition: all ease-in-out 200ms;
+    &:hover,
+    &--active {
+      background: linear-gradient(
+        90deg,
+        rgba(255, 117, 1, 1) 0%,
+        rgba(255, 173, 2, 1) 100%
+      );
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}

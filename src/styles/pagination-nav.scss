@@ -1,0 +1,9 @@
+.pagination-nav {
+  .pagination-nav__link {
+    color: rgba(255, 117, 1, 1);
+
+    &:hover {
+      border-color: rgba(255, 117, 1, 1);
+    }
+  }
+}

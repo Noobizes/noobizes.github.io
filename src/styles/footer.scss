@@ -1,0 +1,95 @@
+footer {
+  &.footer {
+    padding: 1.75rem var(--ifm-footer-padding-horizontal);
+  }
+  .container {
+    --ifm-container-width-xl: 90%;
+    display: flex;
+    flex-direction: row;
+    min-height: 40px;
+    position: relative;
+
+    & > .footer__links {
+      position: absolute;
+      top: 50%;
+      right: 0;
+      transform: translateY(-40%);
+      margin-bottom: 0;
+      & > .footer__links {
+        margin-bottom: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .footer__link-item {
+          &:not(:first-child) {
+            margin-left: 2rem;
+          }
+        }
+
+        .footer__link-separator {
+          display: none;
+        }
+
+        .footer-icon {
+          display: flex;
+
+          svg {
+            path {
+              transition: all ease-in-out 200ms;
+            }
+          }
+          &:hover {
+            svg {
+              path {
+                fill: #ff7501;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    & > .footer__bottom {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+
+      .footer-copyright {
+        display: flex;
+        flex-direction: column;
+
+        .footer-copyright-link {
+          color: white;
+          text-decoration: none;
+          span {
+            transition: all ease-in-out 200ms;
+            cursor: pointer;
+          }
+          &:hover {
+            span {
+              background: linear-gradient(
+                90deg,
+                rgba(255, 117, 1, 1) 0%,
+                rgba(255, 173, 2, 1) 100%
+              );
+              background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+          }
+        }
+
+        span {
+          font-family: Poppins;
+          font-weight: 300;
+          font-size: 0.85rem;
+          cursor: default;
+        }
+      }
+    }
+  }
+}

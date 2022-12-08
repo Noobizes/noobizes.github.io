@@ -1,0 +1,11 @@
+.theme-doc-sidebar-menu {
+  .theme-doc-sidebar-item-link,
+  .theme-doc-sidebar-item-category {
+    .menu__link {
+      &:hover,
+      &--active {
+        color: rgba(255, 117, 1, 1);
+      }
+    }
+  }
+}

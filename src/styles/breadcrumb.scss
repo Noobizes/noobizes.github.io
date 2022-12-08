@@ -1,0 +1,10 @@
+.theme-doc-breadcrumbs {
+  .breadcrumbs__item {
+    &:hover,
+    &--active {
+      .breadcrumbs__link {
+        color: rgba(255, 117, 1, 1);
+      }
+    }
+  }
+}

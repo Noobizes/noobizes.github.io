@@ -1,0 +1,38 @@
+.navbar {
+  padding-bottom: 3.5rem;
+
+  .navbar__inner {
+    .navbar__items {
+      flex-direction: row;
+      .navbar__link {
+        font-family: Poppins;
+        font-weight: 600;
+        font-size: 1rem;
+        margin-top: -0.5rem;
+
+        &:nth-of-type(2) {
+          margin-left: 60px;
+        }
+
+        &:hover,
+        &--active {
+          background: linear-gradient(
+            90deg,
+            rgba(255, 117, 1, 1) 0%,
+            rgba(255, 173, 2, 1) 100%
+          );
+          background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+      }
+
+      .navbar__brand {
+        margin-left: 3rem;
+        .navbar__logo {
+          margin-top: -0.25rem;
+          height: 55px;
+        }
+      }
+    }
+  }
+}

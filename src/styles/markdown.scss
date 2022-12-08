@@ -1,0 +1,11 @@
+.theme-doc-markdown {
+  section {
+    article {
+      .card {
+        &:hover {
+          border-color: rgba(255, 117, 1, 1);
+        }
+      }
+    }
+  }
+}

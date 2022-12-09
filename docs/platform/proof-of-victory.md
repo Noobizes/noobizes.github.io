@@ -3,3 +3,24 @@ sidebar_position: 2
 ---
 
 # 🏆 Proof Of Victory
+
+The **Proof of Victory** principle consists of **high value data**<br/>
+_i.e. verified data coming directly from the games_
+
+We retrieve can data with :
+
+- **Official games API**
+- **Realtime application**
+- **Blockchain stored data**
+
+Those three way of retrieving data must cover every games in the world right now.
+
+Those **data** is then **used to establish a score** according to **each game** and **type of game** played by the users, this **score and game result** are then **stored in blockchain**.
+
+**Storing** the data **in blockchain** then **allows to obtain** a **traceability** of the results and the various tournaments, which then establishes an **immutable track record** allowing the **certification of victories and defeats**.
+
+All those features allow us to provide a **trustfull system** for players, and **many application can be built on top** of this :
+
+- **Gamer CV**
+- **Gamer Reputation**
+- **Tournament official certification**

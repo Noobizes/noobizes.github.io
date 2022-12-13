@@ -49,8 +49,8 @@ export default function Home(): JSX.Element {
             <div
               className="home-categories__card"
               style={{
-                background: 'url(img/token-background.jpg) center',
-                backgroundSize: '100%',
+                background: 'url(img/card1.png) center center',
+                backgroundSize: '125%',
               }}
               onClick={() => window.open('/docs/platform', '_self')}
             >
@@ -61,8 +61,8 @@ export default function Home(): JSX.Element {
             <div
               className="home-categories__card"
               style={{
-                background: 'url(img/token-background.jpg) center',
-                backgroundSize: '100%',
+                background: 'url(img/card2.png) center center',
+                backgroundSize: '125%',
               }}
               onClick={() => window.open('/docs/team', '_self')}
             >
@@ -73,8 +73,8 @@ export default function Home(): JSX.Element {
             <div
               className="home-categories__card"
               style={{
-                background: 'url(img/token-background.jpg) center',
-                backgroundSize: '100%',
+                background: 'url(img/card3.png) center center',
+                backgroundSize: '125%',
               }}
               onClick={() => window.open('/docs/og', '_self')}
             >
@@ -85,8 +85,8 @@ export default function Home(): JSX.Element {
             <div
               className="home-categories__card"
               style={{
-                background: 'url(img/token-background.jpg) center',
-                backgroundSize: '100%',
+                background: 'url(img/card4.png) center center',
+                backgroundSize: '125%',
               }}
               onClick={() => window.open('/docs/tokenomic', '_self')}
             >

@@ -64,7 +64,7 @@ export default function Home(): JSX.Element {
                 background: 'url(img/card2.png) center center',
                 backgroundSize: '125%',
               }}
-              onClick={() => window.open('/docs/team', '_self')}
+              onClick={() => window.open('/docs/team/core-value', '_self')}
             >
               <span className="home-categories__card-text">
                 Get to know the team

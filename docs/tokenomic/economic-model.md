@@ -20,7 +20,7 @@ You can access the detailed operation of the commission system in our [white pap
 
 ## Economic opportunity
 
-If our main source of revenue is based on the commission system, **we want to multiply our sources of income** and **diversify our reveneue streams**.
+If our main source of revenue is based on the commission system, **we want to multiply our sources of income** and **diversify our revenue streams**.
 
 We aim to deploy different services that will allow, at different times, the company to generate more income like :
 

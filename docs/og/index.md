@@ -3,6 +3,8 @@ slug: /og
 sidebar_position: 3
 ---
 
+import DocCardList from '@theme/DocCardList';
+
 # 👨‍🚀 OG Program
 
 **Promoting our services** and **convincing gamers** to use them is one of the keys to the success of Noobizes.
@@ -13,8 +15,4 @@ We believe that **committed members** of a community **contribute to the success
 
 <br />
 
-```mdx-code-block
-import DocCardList from '@theme/DocCardList';
-
 <DocCardList />
-```

@@ -1,0 +1,125 @@
+.team-gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  .team-card-wrapper {
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+}
+
+.team-card {
+  width: 450px;
+  height: 248px;
+  border-radius: 8px;
+  background: radial-gradient(
+    141.68% 100% at 100% 100%,
+    #000000 14.8%,
+    #202227 100%
+  );
+  & span {
+    cursor: default;
+  }
+  padding: 24px 12px;
+  gap: 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  @media screen and (max-width: 996px) {
+    flex-direction: column;
+    width: 248px;
+    height: 390px;
+  }
+
+  &_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    flex-grow: 1;
+    height: 100%;
+  }
+
+  &_image {
+    width: 200px;
+    height: 200px;
+    border-radius: 24px;
+    filter: drop-shadow(0px 0px 40px rgba(0, 0, 0, 0.4));
+  }
+
+  &_name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    &-icon {
+      margin-right: 0.5rem;
+      height: 22px;
+      width: auto;
+    }
+    &-label {
+      font-family: 'Barlow Condensed';
+      font-weight: 900;
+      font-size: 22px;
+      color: #fff;
+      text-shadow: 0px 0px 24px rgba(255, 255, 255, 0.6);
+    }
+    &-pseudo {
+      font-family: 'Barlow Condensed';
+      font-weight: 400;
+      font-size: 22px;
+      color: #fff;
+      margin-left: 0.25rem;
+    }
+  }
+
+  &_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    &-role {
+      font-family: 'Poppins';
+      font-weight: 800;
+      font-size: 14px;
+      background: linear-gradient(0deg, #ffad02, #ffad02);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+    &-tasks {
+      font-family: 'Poppins';
+      font-size: 14px;
+      font-weight: 400;
+      color: #fff;
+    }
+  }
+
+  &_footer {
+    &-icon {
+      cursor: pointer !important;
+      svg {
+        path {
+          transition: all ease-in-out 200ms;
+        }
+      }
+      &:hover {
+        svg {
+          path {
+            fill: #ffad02;
+          }
+        }
+      }
+    }
+  }
+}

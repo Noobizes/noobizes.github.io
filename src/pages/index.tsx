@@ -88,7 +88,9 @@ export default function Home(): JSX.Element {
                 background: 'url(img/card4.png) center center',
                 backgroundSize: '125%',
               }}
-              onClick={() => window.open('/docs/tokenomic', '_self')}
+              onClick={() =>
+                window.open('/docs/tokenomic/economic-model', '_self')
+              }
             >
               <span className="home-categories__card-text">
                 Understand the economic model

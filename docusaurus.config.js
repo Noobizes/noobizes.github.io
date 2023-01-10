@@ -4,6 +4,9 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+const organizationName = 'noobizes';
+const projectName = 'noobizes.github.io';
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Noobizes WIKI',
@@ -13,8 +16,8 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
-  organizationName: 'noobizes', // Usually your GitHub org/user name.
-  projectName: 'noobizes.github.io', // Usually your repo name.
+  organizationName,
+  projectName,
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -27,11 +30,11 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          //editUrl: '',
+          editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
         },
         blog: {
           showReadingTime: true,
-          //editUrl: '',
+          editUrl: `https://github.com/${organizationName}/${projectName}/tree/main/`,
         },
         theme: {
           customCss: require.resolve('./src/styles/custom.scss'),

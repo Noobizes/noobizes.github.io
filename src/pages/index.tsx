@@ -38,7 +38,7 @@ export default function Home(): JSX.Element {
                 />
               </svg>
               <span className="home-buttons__button-text">
-                Discover the project
+                Visit our website
               </span>
             </button>
           </div>
@@ -55,7 +55,7 @@ export default function Home(): JSX.Element {
               onClick={() => window.open('/docs/platform', '_self')}
             >
               <span className="home-categories__card-text">
-                Discover Noobizes Platform
+                Learn more about Noobizes
               </span>
             </div>
             <div
